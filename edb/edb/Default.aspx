@@ -18,7 +18,7 @@
                </ul>
                </div>--%>
 
-        <div class="row-fluid">
+   <%--     <div class="row-fluid">
             <div class="navbar navbar-inverse">
                 <div class="navbar-inner">
                     <div class="container-fluid">
@@ -49,7 +49,7 @@
 
 
 
-
+--%>
 
 
 
