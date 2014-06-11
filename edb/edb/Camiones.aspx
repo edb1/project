@@ -7,8 +7,8 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div class="panel panel-default ">
-        <div class=" panel-heading ">
+    <div class="panel  ">
+        <div class="panel-primary panel-heading ">
             <h3 class="panel-title">Camiones</h3>
         </div>
         <div class="panel-body">
@@ -76,6 +76,6 @@
 
     </div>
 
-    
+
 
 </asp:Content>
