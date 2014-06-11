@@ -18,8 +18,8 @@
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#main-slider"><i class="icon-home"></i></a></li>
-                        <li><a href="#services1">Camiones</a></li>
+                        <li class="active"><a href="Vehiculos.aspx"><i class="icon-home"></i></a></li>
+                        <li><a href="Vehiculos.aspx">Camiones</a></li>
                         <li><a href="#portfolio1">Conductores</a></li>
                         <li><a href="#pricing1">Dispositivos</a></li>
                         <li><a href="#about-us1">Ubicacion</a></li>
