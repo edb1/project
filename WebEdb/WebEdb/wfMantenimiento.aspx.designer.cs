@@ -11,7 +11,7 @@ namespace WebEdb
 {
 
 
-    public partial class Vehiculos
+    public partial class wfMantenimiento
     {
     }
 }

@@ -11,7 +11,7 @@ namespace WebEdb
 {
 
 
-    public partial class Conductores
+    public partial class wfDispositivos
     {
     }
 }

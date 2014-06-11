@@ -109,7 +109,7 @@
     <Content Include="Account\OpenAuthProviders.ascx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
-    <Content Include="Conductores.aspx" />
+    <Content Include="wfConductores.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\font-awesome.min.css" />
@@ -196,6 +196,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="wfDispositivos.aspx" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\html5shiv.js" />
@@ -209,7 +210,9 @@
     <Content Include="Scripts\main.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="Vehiculos.aspx" />
+    <Content Include="wfMantenimiento.aspx" />
+    <Content Include="wfUbicacion.aspx" />
+    <Content Include="wfVehiculos.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -268,12 +271,12 @@
       <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Conductores.aspx.cs">
-      <DependentUpon>Conductores.aspx</DependentUpon>
+    <Compile Include="wfConductores.aspx.cs">
+      <DependentUpon>wfConductores.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Conductores.aspx.designer.cs">
-      <DependentUpon>Conductores.aspx</DependentUpon>
+    <Compile Include="wfConductores.aspx.designer.cs">
+      <DependentUpon>wfConductores.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
@@ -307,12 +310,26 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
-    <Compile Include="Vehiculos.aspx.cs">
-      <DependentUpon>Vehiculos.aspx</DependentUpon>
+    <Compile Include="wfMantenimiento.aspx.cs">
+      <DependentUpon>wfMantenimiento.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vehiculos.aspx.designer.cs">
-      <DependentUpon>Vehiculos.aspx</DependentUpon>
+    <Compile Include="wfMantenimiento.aspx.designer.cs">
+      <DependentUpon>wfMantenimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfUbicacion.aspx.cs">
+      <DependentUpon>wfUbicacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfUbicacion.aspx.designer.cs">
+      <DependentUpon>wfUbicacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfVehiculos.aspx.cs">
+      <DependentUpon>wfVehiculos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfVehiculos.aspx.designer.cs">
+      <DependentUpon>wfVehiculos.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
@@ -320,6 +337,13 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="wfDispositivos.aspx.cs">
+      <DependentUpon>wfDispositivos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfDispositivos.aspx.designer.cs">
+      <DependentUpon>wfDispositivos.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
