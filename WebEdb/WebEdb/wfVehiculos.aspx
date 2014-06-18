@@ -68,7 +68,17 @@
                                     <div class="col-sm-10">
                                     <%--<label for="inputModelo" class="col-sm-2 control-label">Modelo</label>--%>
 
-                                    <input type="text" class="form-control" id="inputModelo" placeholder="Modelo">
+                                    <%--<input type="text" class="form-control" id="inputModelo" placeholder="Modelo">--%>
+
+                                        <select name="unittype" required class="form-control" >
+                                            <option value="" selected disabled>Modelo </option>
+                                            <option value="1">Miner </option>
+                                            <option value="2">Puffer </option>
+                                            <option value="3">Snipey </option>
+                                            <option value="4">Max </option>
+                                            <option value="5">Firebot </option>
+                                        </select>
+
                                     </div>
                                 </div>
                             </li>

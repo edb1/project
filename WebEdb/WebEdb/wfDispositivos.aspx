@@ -43,7 +43,7 @@
                             </li>
                             <li class="plan-action">
                                 <a href="#" class="btn btn-primary btn-lg">Guardar</a>
-                                <a href="#" class="btn btn-primary btn-lg">Modificar</a>
+                                <%--<a href="#" class="btn btn-primary btn-lg">Modificar</a>--%>
                                 <a href="#" class="btn btn-primary btn-lg">Borrar</a>
                             </li>
                         </ul>

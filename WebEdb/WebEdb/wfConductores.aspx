@@ -57,7 +57,7 @@
                                 <div class="form-group">
                                     <%--<label for="inputNroTel" class="col-sm-2 control-label">Nro. de Teléfono</label>--%>
                                     <div class="col-sm-10">
-                                        <input type="text" class="form-control" id="inputNroTel" placeholder="Nro de Chip">
+                                        <input type="text" class="form-control" id="inputNroTel" placeholder="Nro de Teléfono">
                                     </div>
                                 </div>
                             </li>
