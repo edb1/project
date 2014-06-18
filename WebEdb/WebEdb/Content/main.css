@@ -634,5 +634,33 @@ textarea#message {
 }
 
 .form-group {
-    padding-bottom:2em;
+    padding-bottom:1em;
+    padding-top:1em;
 }
+
+
+/*dario*/
+/*.s {
+    color: #ccc;
+    font-size: 0px;
+    display: none;
+}*/
+/*ejemplo2*/
+/*form select.not_chosen {
+  color: #808080;
+}
+form select option {
+    color: #080808;
+}
+form select option:first-child {
+    color: #808080;
+}*/
+/*ejemplo3*/
+select option { color: black; }
+select option:first-child { color: grey; }
+select.empty { color: grey; }
+/* Hidden placeholder */
+select option[disabled]:first-child { display: none; }
+
+
+

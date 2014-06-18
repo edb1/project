@@ -14,7 +14,7 @@
     <script src="Scripts/bootstrap.min.js"></script>
     <script src="Scripts/jquery.isotope.min.js"></script>
     <script src="Scripts/jquery.prettyPhoto.js"></script>
-   <%-- <script src="Scripts/main.js"></script>--%>
+    <%--<script src="Scripts/main.js"></script>--%>
 
     </asp:PlaceHolder>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
