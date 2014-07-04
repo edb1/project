@@ -30,8 +30,7 @@
                             <li>
 
                                 <div class="form-group">
-                                    <label for="inputMarca" class="col-sm-2 control-label">Marca</label>
-                                    <div class="col-sm-10">
+                                    &nbsp;<div class="col-sm-10">
 
                                         <select id="ddlTransportista" runat="server" required class="form-control">
                                             <%-- <option value="" >Propietario </option>
@@ -54,9 +53,9 @@
 
 
                                         <div class="col-sm-10">
+                                                 <asp:DropDownList ID="ddlMarca" required class="form-control" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddlMarca_SelectedIndexChanged"  ></asp:DropDownList>
 
-                                            <select id="ddlMarca" runat="server" required class="form-control">
-                                            </select>
+                                       
 
                                         </div>
                                     </div>
@@ -69,15 +68,25 @@
 
 
                                         <div class="col-sm-10">
+ 
+                                            <asp:DropDownList ID="ddlModelo" required class="form-control" runat="server" AutoPostBack="True"  ></asp:DropDownList>
 
-                                            <select id="ddlModelo" runat="server" required class="form-control">
-                                            </select>
 
                                         </div>
                                     </div>
                                 </div>
                             </li>
 
+                             <li>
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                       
+
+                                       <asp:DropDownList ID="dllColor"   class="form-control" runat="server" AutoPostBack="false"  ></asp:DropDownList>
+
+                                    </div>
+                                </div>
+                            </li>
 
 
 
@@ -102,16 +111,7 @@
                                 </div>
                             </li>
 
-                            <li>
-                                <div class="form-group">
-                                    <div class="col-sm-10">
-                                        <%--<label for="inputColor" class="col-sm-2 control-label">Color</label>--%>
-
-                                        <input type="text" class="form-control" id="inputColor" placeholder="Color">
-                                    </div>
-                                </div>
-                            </li>
-
+                           
                             <li>
                                 <div class="form-group">
 
@@ -123,8 +123,9 @@
                                 </div>
                             </li>
                             <li class="plan-action">
-                                <a href="#" class="btn btn-primary btn-lg">Guardar</a>
-                                <a href="#" class="btn btn-primary btn-lg">Borrrar</a>
+
+                                <asp:Button ID="btnGuardar" runat="server" Text="Guardar"  CssClass="btn btn-primary btn-lg" OnClick="btnGuardar_Click" />
+                            
 
                             </li>
                         </ul>

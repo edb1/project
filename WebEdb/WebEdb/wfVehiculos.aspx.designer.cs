@@ -28,7 +28,7 @@ namespace WebEdb {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlSelect ddlMarca;
+        protected global::System.Web.UI.WebControls.DropDownList ddlMarca;
         
         /// <summary>
         /// ddlModelo control.
@@ -37,6 +37,24 @@ namespace WebEdb {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlSelect ddlModelo;
+        protected global::System.Web.UI.WebControls.DropDownList ddlModelo;
+        
+        /// <summary>
+        /// dllColor control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList dllColor;
+        
+        /// <summary>
+        /// btnGuardar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnGuardar;
     }
 }

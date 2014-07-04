@@ -18,5 +18,21 @@ Namespace Fachada
 
         End Function
 
+
+        Public Shared Function ModeloSe(IdMarca As Integer) As List(Of InfoMarca)
+
+            Return MarcaBD.ns_Modelo(IdMarca)
+
+
+        End Function
+        Public Shared Function ColorSe() As List(Of InfoVehiculo)
+
+            Return VehiculoBD.ns_ColorS()
+        End Function
+
+
+
+
+
     End Class
 End Namespace

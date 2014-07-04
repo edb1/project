@@ -75,9 +75,11 @@
   <ItemGroup>
     <Compile Include="DAL\MarcaBD.vb" />
     <Compile Include="DAL\TransportistaBD.vb" />
+    <Compile Include="DAL\VehiculoBD.vb" />
     <Compile Include="Fachada.vb" />
     <Compile Include="INFO\InfoMarca.vb" />
     <Compile Include="INFO\InfoTransportista.vb" />
+    <Compile Include="INFO\InfoVehiculo.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

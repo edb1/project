@@ -5,26 +5,7 @@ Imports System.Data.Common
 Namespace DAL
 
     Public Class TransportistaBD
-        Public Shared Sub VacacionIN(IdEmpleado As Integer, desde As DateTime, hasta As DateTime _
-                                     , periodo As Integer, IdTipo As Integer, Observacion As String, CreadoPor As String)
-            Dim db As Database
-            Dim cmd As DbCommand
-            Try
-                db = DatabaseFactory.CreateDatabase()
-                cmd = db.GetStoredProcCommand("ns_EmpleadoPermisoIN")
-                db.AddInParameter(cmd, "@IdEmpleado", DbType.Int64, IdEmpleado)
-                db.AddInParameter(cmd, "@Desde", DbType.DateTime, desde)
-                db.AddInParameter(cmd, "@Hasta", DbType.DateTime, hasta)
-                db.AddInParameter(cmd, "@Periodo", DbType.Int32, periodo)
-                db.AddInParameter(cmd, "@Idtipo", DbType.Int32, IdTipo)
-                db.AddInParameter(cmd, "@Observacion", DbType.String, Observacion)
-                db.AddInParameter(cmd, "@CreadoPor", DbType.String, CreadoPor)
-                db.ExecuteScalar(cmd)
-            Catch ex As Exception
-                Throw ex
-            End Try
 
-        End Sub
 
 
         Public Shared Function ns_TransportistaS() As List(Of InfoTransportista)
