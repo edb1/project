@@ -10,8 +10,7 @@
                    
                 </div>
                 <!--/.center-->
-                <%--<div class="big-gap"></div>--%>
-                <div id="pricing-table1" class="row">
+              <div class="big-gap"></div>
                     <div class="col-sm-4">
                     </div>
                     <!--/.col-sm-4-->
