@@ -4,8 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using EDB_BLL.Fachada;
 using EDB_BLL;
-
 namespace WebEdb
 {
     public partial class Vehiculos : System.Web.UI.Page
@@ -60,7 +60,7 @@ namespace WebEdb
                 InfoVehiculo info=new InfoVehiculo();
 
                 info.IdTransportista = Convert.ToInt32(ddlTransportista.Value);
-
+                info.NroChapa= 
             }
             catch (Exception)
             {

@@ -8,17 +8,15 @@
         <div class="container">
             <div class="box first">
                 <div class="center">
-                    <%--  <br />
-                    <br />
-                    <br />
-                    <h2>Vehiculos</h2>--%>
+                    
                     <br />
 
                 </div>
                 <!--/.center-->
-                <%--<div class="big-gap"></div>--%>
+                <div class="big-gap"></div>
                 <div id="pricing-table1" class="row">
                     <div class="col-sm-4">
+                        <p></p>
                     </div>
                     <!--/.col-sm-4-->
 
@@ -28,7 +26,6 @@
                                <li class="plan-name"></li>
                             <li class="plan-price">Camiones</li>
                             <li>
-
                                 <div class="form-group">
                                     &nbsp;<div class="col-sm-10">
 
@@ -39,13 +36,7 @@
                                     </div>
 
                                 </div>
-
-
                             </li>
-
-
-
-
 
                             <li>
                                 <div class="form-group">
@@ -55,7 +46,7 @@
                                         <div class="col-sm-10">
                                                  <asp:DropDownList ID="ddlMarca" required class="form-control" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddlMarca_SelectedIndexChanged"  ></asp:DropDownList>
 
-                                       
+
 
                                         </div>
                                     </div>
@@ -68,7 +59,7 @@
 
 
                                         <div class="col-sm-10">
- 
+
                                             <asp:DropDownList ID="ddlModelo" required class="form-control" runat="server" AutoPostBack="True"  ></asp:DropDownList>
 
 
@@ -77,16 +68,6 @@
                                 </div>
                             </li>
 
-                             <li>
-                                <div class="form-group">
-                                    <div class="col-sm-10">
-                                       
-
-                                       <asp:DropDownList ID="dllColor"   class="form-control" runat="server" AutoPostBack="false"  ></asp:DropDownList>
-
-                                    </div>
-                                </div>
-                            </li>
 
 
 
@@ -96,7 +77,7 @@
                                     <div class="col-sm-10">
                                         <%--<label for="inputNroChapa" class="col-sm-2 control-label">Chapa</label>--%>
 
-                                        <input type="text" class="form-control" id="inputNroChapa" placeholder="Nro de Chapa">
+                                        <input type="text" runat="server" class="form-control" id="txtNroChapa" placeholder="Nro de Chapa">
                                     </div>
                                 </div>
                             </li>
@@ -111,7 +92,7 @@
                                 </div>
                             </li>
 
-                           
+
                             <li>
                                 <div class="form-group">
 
@@ -131,7 +112,8 @@
                         </ul>
                     </div>
                     <!--/.col-sm-4-->
-
+                    <div class="col-sm-4">
+                        <p></p>
                 </div>
                 <!--/.col-sm-4-->
             </div>
