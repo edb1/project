@@ -109,6 +109,7 @@
     <Content Include="Account\OpenAuthProviders.ascx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
+    <Content Include="wfCargasMonitoreo.aspx" />
     <Content Include="wfConductores.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.min.css" />
@@ -271,6 +272,13 @@
       <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="wfCargasMonitoreo.aspx.cs">
+      <DependentUpon>wfCargasMonitoreo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfCargasMonitoreo.aspx.designer.cs">
+      <DependentUpon>wfCargasMonitoreo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="wfConductores.aspx.cs">
       <DependentUpon>wfConductores.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -352,6 +360,12 @@
   <ItemGroup>
     <Content Include="Account\Web.config" />
     <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EDB_BLL\EDB_BLL.vbproj">
+      <Project>{45242fe3-5e7d-46b9-bda5-b322d3a5bed7}</Project>
+      <Name>EDB_BLL</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
