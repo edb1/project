@@ -8,17 +8,15 @@
         <div class="container">
             <div class="box first">
                 <div class="center">
-                    <%--  <br />
-                    <br />
-                    <br />
-                    <h2>Vehiculos</h2>--%>
+                    
                     <br />
 
                 </div>
                 <!--/.center-->
-                <%--<div class="big-gap"></div>--%>
+                <div class="big-gap"></div>
                 <div id="pricing-table1" class="row">
                     <div class="col-sm-4">
+                        <p></p>
                     </div>
                     <!--/.col-sm-4-->
 
@@ -28,7 +26,6 @@
                                <li class="plan-name"></li>
                             <li class="plan-price">Camiones</li>
                             <li>
-
                                 <div class="form-group">
                                     <label for="inputMarca" class="col-sm-2 control-label">Marca</label>
                                     <div class="col-sm-10">
@@ -40,13 +37,7 @@
                                     </div>
 
                                 </div>
-
-
                             </li>
-
-
-
-
 
                             <li>
                                 <div class="form-group">
@@ -77,10 +68,6 @@
                                     </div>
                                 </div>
                             </li>
-
-
-
-
 
                             <li>
                                 <div class="form-group">
@@ -130,8 +117,9 @@
                         </ul>
                     </div>
                     <!--/.col-sm-4-->
-
-                </div>
+                    <div class="col-sm-4">
+                        <p></p>
+                    </div>
                 <!--/.col-sm-4-->
             </div>
         </div>
