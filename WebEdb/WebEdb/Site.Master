@@ -4,7 +4,7 @@
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
-    <title><%: Page.Title %> - My ASP.NET Application</title>
+    <title><%: Page.Title %> - SIT PARAGUAY SA</title>
     <%--<link href="~/Content/Site.css" rel="stylesheet" />--%> 
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <asp:PlaceHolder runat="server">        
@@ -58,9 +58,9 @@
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#main-slider"><i class="icon-home"></i></a></li>
                     
-                        <li><a href="wfConductores">Conductores</a></li>
+                        <li><a href="wfCargasMonitoreo.aspx">Monitoreo</a></li>
 
-                         <li><a href="wfVehiculos.aspx">Camiones</a></li>
+                         <li><a href="wfVehiculoListar.aspx">Camiones</a></li>
                         <li><a href="wfDispositivos">Dispositivos</a></li>
                         <li><a href="wfUbicacion">Ubicación</a></li>
                         <li><a href="wfMantenimiento">Mantenimiento</a></li>
