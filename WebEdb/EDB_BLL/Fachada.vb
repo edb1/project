@@ -30,9 +30,20 @@ Namespace Fachada
             Return VehiculoBD.ns_ColorS()
         End Function
 
+        Public Shared Sub VehiculoIN(Info As InfoVehiculo)
+
+            VehiculoBD.ns_VehiculoIN(Info)
+        End Sub
+
+        Public Shared Function VehiculoSe() As List(Of InfoVehiculo)
+            Return VehiculoBD.ns_VehiculoSe()
+        End Function
 
 
 
+        Public Shared Function MonitoreoSe() As List(Of InfoVehiculo)
+            Return VehiculoBD.ns_VehiculoMonitoreoSe()
+        End Function
 
     End Class
 End Namespace

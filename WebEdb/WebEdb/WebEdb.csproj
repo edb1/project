@@ -213,6 +213,7 @@
     <Content Include="Scripts\respond.min.js" />
     <Content Include="wfMantenimiento.aspx" />
     <Content Include="wfUbicacion.aspx" />
+    <Content Include="wfVehiculoListar.aspx" />
     <Content Include="wfVehiculos.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
@@ -331,6 +332,13 @@
     </Compile>
     <Compile Include="wfUbicacion.aspx.designer.cs">
       <DependentUpon>wfUbicacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfVehiculoListar.aspx.cs">
+      <DependentUpon>wfVehiculoListar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfVehiculoListar.aspx.designer.cs">
+      <DependentUpon>wfVehiculoListar.aspx</DependentUpon>
     </Compile>
     <Compile Include="wfVehiculos.aspx.cs">
       <DependentUpon>wfVehiculos.aspx</DependentUpon>

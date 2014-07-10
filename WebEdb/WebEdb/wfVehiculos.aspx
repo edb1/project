@@ -1,6 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="wfVehiculos.aspx.cs" Inherits="WebEdb.Vehiculos" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="FeaturedContent" runat="server">
+    <p>
+         </p>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -68,7 +70,20 @@
                                 </div>
                             </li>
 
+                                   <li>
+                                <div class="form-group">
+                                    <div class="col-sm-10">
 
+
+                                        <div class="col-sm-10">
+
+                                            <asp:DropDownList ID="dllColor" required class="form-control" runat="server" AutoPostBack="True"  ></asp:DropDownList>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
 
 
 
@@ -82,15 +97,15 @@
                                 </div>
                             </li>
 
-                            <li>
+                           <%-- <li>
                                 <div class="form-group">
                                     <div class="col-sm-10">
-                                        <%--<label for="inputChasis" class="col-sm-2 control-label">Chasis</label>--%>
+                                        <%--<label for="inputChasis" class="col-sm-2 control-label">Chasis</label> 
 
-                                        <input type="text" class="form-control" id="inputChasis" placeholder="Chasis">
+                                        <input type="text" runat="server" class="form-control" id="txtChasis" placeholder="Chasis">
                                     </div>
                                 </div>
-                            </li>
+                            </li>--%>
 
 
                             <li>
@@ -99,7 +114,7 @@
                                     <div class="col-sm-10">
                                         <%--<label for="inputTag" class="col-sm-2 control-label">Tag</label>--%>
 
-                                        <input type="text" class="form-control" id="inputTag" placeholder="Tag">
+                                        <input type="text" runat="server" class="form-control" id="txtTag" placeholder="Tag">
                                     </div>
                                 </div>
                             </li>
